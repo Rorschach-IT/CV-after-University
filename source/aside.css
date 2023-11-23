@@ -1,0 +1,48 @@
+/*
+    LEFT-SIDE OF THE PAGE
+*/
+aside {
+    width: 25%;
+    display: inline-block;
+    background-color: #61798E;
+    text-align: center;
+    padding: 0;
+}
+
+#profile-container {
+    padding: 15% 15% 10% 15%;
+}
+
+img {
+    width: 100%;
+    border: 0.1px solid rgba(0, 0, 0, 0.322);
+    border-radius: 100%;
+}
+
+.adjust-font {
+    padding: 0 5% 0 5%;
+}
+
+hr {
+    border-color: #e2dbdb;
+    margin-bottom: 6%;
+}
+
+.p-aside {
+    color: #ede6e6;
+    font-size: 120%;
+}
+
+.span-aside {
+    color: #d4cece;
+}
+
+.font-aside {
+    color: #d4cece;
+    font-size: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: #d4cece;;
+}

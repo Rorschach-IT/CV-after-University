@@ -1,0 +1,22 @@
+/*
+    THIS FILE CONTAINS MAIN STYLES
+    AND TWO IMPORTED FILES WITH ASIDE AND MAIN CONTAINERS
+*/
+
+@import url(main.css);
+@import url(aside.css);
+
+body {
+    background: url(../media/background.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0 0 0 0;
+}
+
+#container {
+    margin: auto;
+    width: 85%;
+    height: auto;
+    display: flex;
+    font-size: 1.4vw;
+}
