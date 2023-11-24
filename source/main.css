@@ -6,4 +6,11 @@ main {
     width: 75%;
     display: inline-block;
     background-color: #DCEDEE;
+    color: #0e2c50b3;
+    padding: 5%;
 }
+
+#name-and-surname {
+    font-size: 0.5em;
+}
+
