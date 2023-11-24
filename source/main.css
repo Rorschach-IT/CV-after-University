@@ -6,10 +6,11 @@
 main {
     width: 65%;
     display: inline-block;
-    background-color: #DCEDEE;
-    color: #0e2c50b3;
+    color: #0e2c50cc;
     padding: 2% 5% 2% 5%;
     text-align: left;
+    background-color: rgba(235, 237, 243, 1);
+    background-image: radial-gradient(circle, rgba(235, 237, 243, 1) 0%, rgba(209, 219, 240, 1) 100%);
 }
 
 main h1 {

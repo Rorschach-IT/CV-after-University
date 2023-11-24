@@ -7,9 +7,11 @@
 @import url(aside.css);
 
 body {
-    background: url(../media/background.png);
+    /* background: url(../media/background.png);
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
+    background-color: rgba(232, 228, 236, 1);
+    background-image: radial-gradient(circle, rgba(232, 228, 236, 1) 0%, rgba(166, 187, 199, 1) 100%);
     margin: 0 0 0 0;
 }
 

@@ -4,9 +4,10 @@
 aside {
     width: 35%;
     display: inline-block;
-    background-color: #61798E;
     text-align: center;
     padding: 0;
+    background-color: rgb(243, 240, 246);
+    background-image: radial-gradient(circle, rgb(135, 132, 139) 0%, rgb(155, 159, 168) 100%);
 }
 
 #profile-container {
@@ -17,6 +18,9 @@ img {
     width: 100%;
     border: 0.1px solid rgba(0, 0, 0, 0.322);
     border-radius: 100%;
+    /* -webkit-box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 1); */
 }
 
 .adjust-font {
@@ -24,25 +28,25 @@ img {
 }
 
 hr {
-    border-color: #e2dbdb;
+    border-color: #ffffff;
     margin-bottom: 6%;
 }
 
 .p-aside {
-    color: #ede6e6;
+    color: #ffffff;
     font-size: 120%;
 }
 
 .span-aside {
-    color: #d4cece;
+    color: #e8e2e2;
 }
 
 .font-aside {
-    color: #d4cece;
+    color: #e8e2e2;
     font-size: 80%;
 }
 
 a {
     text-decoration: none;
-    color: #d4cece;;
+    color: #e8e2e2;
 }
