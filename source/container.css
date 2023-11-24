@@ -20,3 +20,83 @@ body {
     display: flex;
     font-size: 1.4vw;
 }
+
+main {
+    width: 65%;
+    display: inline-block;
+    background-color: #DCEDEE;
+    color: #0e2c50b3;
+    padding: 2% 5% 2% 5%;
+    text-align: left;
+}
+
+main h1 {
+    font-size: 3.2em;
+    margin-bottom: -0.9%;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 10%;
+}
+
+main hr {
+    border-color: #0e2c5063;
+}
+
+.p-main-header {
+    margin-top: 6%;
+    font-size: 1.2em;
+}
+
+.p-main {
+    font-size: 1em;
+    margin-top: -3%;
+}
+
+.list-client-job {
+    display: block;
+    margin-top: -2%;
+    margin-left: 0;
+    font-size: 90%;
+}
+
+.list-courses {
+    display: block;
+    /* margin-left: -5%; */
+    list-style-type: disc;
+    font-size: 95%;
+}
+
+.list-skills {
+    display: block;
+    /* margin-left: -5%; */
+    font-size: 95%;
+}
+
+.list-skills > li {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.list-inside-list-skills {
+    display: block;
+    /* margin-left: -7%; */
+    font-size: 85%;
+    list-style-type: disc;
+}
+
+footer {
+    font-family: Century;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+footer hr {
+    border: 2px dotted;
+}
+
+#signature {
+    font-size: 140%;
+    text-align: right;
+}
