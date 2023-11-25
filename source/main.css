@@ -2,9 +2,8 @@
     RIGHT-SIDE OF THE PAGE
 */
 
-
 main {
-    width: 65%;
+    width: 70%;
     display: inline-block;
     color: #0e2c50cc;
     padding: 2% 5% 2% 5%;
@@ -28,32 +27,28 @@ main hr {
 }
 
 .p-main-header {
-    margin-top: 6%;
+    margin-top: 10%;
     font-size: 1.2em;
 }
 
 .p-main {
     font-size: 1em;
-    margin-top: -3%;
 }
 
 .list-client-job {
     display: block;
     margin-top: -2%;
-    margin-left: 0;
     font-size: 90%;
 }
 
 .list-courses {
     display: block;
-    /* margin-left: -5%; */
     list-style-type: disc;
     font-size: 95%;
 }
 
 .list-skills {
     display: block;
-    /* margin-left: -5%; */
     font-size: 95%;
 }
 
@@ -64,23 +59,26 @@ main hr {
 
 .list-inside-list-skills {
     display: block;
-    /* margin-left: -7%; */
     font-size: 85%;
     list-style-type: disc;
 }
 
-footer {
+footer section {
     font-family: Century;
     font-style: italic;
     font-size: 0.8em;
+    border-top: 1.5px dotted;
+    border-bottom: 1.5px dotted;
+    padding: 2% 3% 2% 3%;
 }
 
-footer hr {
-    border: 1px dotted;
+footer section blockquote {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #signature {
     font-size: 140%;
     text-align: right;
 }
-

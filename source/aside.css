@@ -2,7 +2,7 @@
     LEFT-SIDE OF THE PAGE
 */
 aside {
-    width: 35%;
+    width: 30%;
     display: inline-block;
     text-align: center;
     padding: 0;
@@ -15,12 +15,9 @@ aside {
 }
 
 img {
-    width: 100%;
+    width: 85%;
     border: 0.1px solid rgba(0, 0, 0, 0.322);
     border-radius: 100%;
-    /* -webkit-box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 1);
-    box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 1); */
 }
 
 .adjust-font {
@@ -47,6 +44,24 @@ hr {
 }
 
 a {
-    text-decoration: none;
     color: #e8e2e2;
 }
+
+a:hover {
+    color: white;
+}
+
+/*
+    -webkit-transition: transform 1s linear;
+    -moz-transition: transform 1s linear;
+    -ms-transition: transform 1s linear;
+    -o-transition: transform 1s linear;
+    transition: transform 1s linear;
+
+
+    -webkit-transform:  rotate(4deg);
+    -moz-transform:  rotate(4deg);
+    -ms-transform:  rotate(4deg);
+    -o-transform:  rotate(4deg);
+    transform:  rotate(4deg);
+*/
