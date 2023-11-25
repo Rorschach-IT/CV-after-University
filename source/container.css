@@ -6,10 +6,36 @@
 @import url(main.css);
 @import url(aside.css);
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #container {font-size: 60%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #container {font-size: 70%;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #container {font-size: 80%;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #container {font-size: 90%;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #container {font-size: 100%;}
+}
+
+html {
+    box-sizing: border-box;
+}
+
 body {
-    /* background: url(../media/background.png);
-    background-attachment: fixed;
-    background-size: 100% 100%; */
     background-color: rgba(232, 228, 236, 1);
     background-image: radial-gradient(circle, rgba(232, 228, 236, 1) 0%, rgba(166, 187, 199, 1) 100%);
     margin: 0 0 0 0;
@@ -20,5 +46,5 @@ body {
     width: 85%;
     height: auto;
     display: flex;
-    font-size: 1.4vw;
+    /* font-size: 1.6vw; */
 }
