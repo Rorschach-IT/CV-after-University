@@ -1,0 +1,69 @@
+/*
+    THIS FILE CONTAINS SCALING COMPATIBILITY FOR DIFFERENT DEFICES WITH DIFFERENT SCALE
+*/
+
+
+/* SMALLEST DEVICES UNDER 400px */
+@media only screen and (max-width: 400px) {
+    #container {
+        font-size: 60% !important;
+        width: 100% !important;
+    }
+    aside {
+        font-size: 92%;
+        width: 50%;
+    }
+    main h2 {
+        margin-bottom: 15%;
+    }
+    .font-aside {
+        font-size: 88%;
+    }
+}
+
+/* Extra small devices (phones) */
+@media only screen and (min-width: 401px) {
+    #container {
+        font-size: 70%;
+    }
+    aside {
+        font-size: 82%;
+        width: 40%;
+    }
+    main h2 {
+        margin-bottom: 15%;
+    }
+    .font-aside {
+        font-size: 88%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #container {
+        font-size: 100%;
+    }
+    .aside {
+        width: 20%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up */
+@media only screen and (min-width: 992px) {
+    #container {
+        font-size: 120%;
+    }
+    main {
+        font-size: 90% !important;
+    }
+}
+
+/* 1440p+ extra++ bonus */
+@media only screen and (min-width: 1440px) {
+    #container {
+        font-size: 140%;
+    }
+    main {
+        font-size: 90% !important;
+    }
+}
