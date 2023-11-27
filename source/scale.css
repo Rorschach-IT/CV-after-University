@@ -3,65 +3,55 @@
 */
 
 
-/* SMALLEST DEVICES UNDER 400px */
-@media only screen and (max-width: 400px) {
+/* Extra small devices (phones) */
+@media only screen and (max-width: 500px) {
     #container {
-        font-size: 60% !important;
         width: 100% !important;
+        font-size: 120%;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     aside {
-        font-size: 92%;
-        width: 50%;
+        width: 100%;
     }
-    main h2 {
-        margin-bottom: 15%;
-    }
-    .font-aside {
-        font-size: 88%;
+    main {
+        width: 100%;
     }
 }
 
-/* Extra small devices (phones) */
-@media only screen and (min-width: 401px) {
+/* Small/Medium devices */
+@media only screen and (min-width: 500px) {
     #container {
-        font-size: 70%;
+        width: 100% !important  ;
     }
     aside {
-        font-size: 82%;
-        width: 40%;
-    }
-    main h2 {
-        margin-bottom: 15%;
+        font-size: 84%;
+        width: 45%;
     }
     .font-aside {
-        font-size: 88%;
+        font-size: 90%;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     #container {
-        font-size: 100%;
-    }
-    .aside {
-        width: 20%;
+        font-size: 125%;
+        width: 85% !important;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up */
 @media only screen and (min-width: 992px) {
     #container {
-        font-size: 120%;
-    }
-    main {
-        font-size: 90% !important;
+        font-size: 130%;
     }
 }
 
 /* 1440p+ extra++ bonus */
 @media only screen and (min-width: 1440px) {
     #container {
-        font-size: 140%;
+        font-size: 150%;
     }
     main {
         font-size: 90% !important;

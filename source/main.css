@@ -7,24 +7,29 @@ main {
     width: 70%;
     display: inline-block;
     color: #0e2c50cc;
-    padding: 2% 5% 2% 5%;
+    padding: 0 5% 2% 5%;
     text-align: left;
     background-color: rgba(235, 237, 243, 1);
     background-image: radial-gradient(circle, rgba(235, 237, 243, 1) 0%, rgba(209, 219, 240, 1) 100%);
 }
 
-main h1 {
-    font-size: 3.2em;
-    margin-bottom: -0.9%;
+main header {
+    margin-top: -2%;
 }
 
-main h2 {
+main header h1 {
+    font-size: 3.2em;
+}
+
+main header h2 {
     font-size: 2em;
-    margin-bottom: 10%;
+    margin-top: -4%;
 }
 
 main hr {
     border-color: #0e2c5063;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 .p-main-header {
@@ -37,19 +42,16 @@ main hr {
 }
 
 .list-client-job {
-    display: block;
     margin-top: -2%;
     font-size: 90%;
 }
 
 .list-courses {
-    display: block;
     list-style-type: disc;
     font-size: 95%;
 }
 
 .list-skills {
-    display: block;
     font-size: 95%;
 }
 
@@ -59,13 +61,11 @@ main hr {
 }
 
 .list-inside-list-skills {
-    display: block;
     font-size: 85%;
     list-style-type: disc;
 }
 
 footer section {
-    font-family: Century;
     font-style: italic;
     font-size: 0.8em;
     border-top: 1.5px dotted;
