@@ -13,9 +13,35 @@
     }
     aside {
         width: 100%;
+        text-align: left;
     }
     main {
         width: 100%;
+    }
+    #profile-container {
+        text-align: center;
+    }
+    #min-devices-header {
+        display: block;
+        font-size: 220%;
+        color: #ffffff;
+        margin-top: -9%;
+        text-align: center !important;
+    }
+    #data {
+        display: block;
+        margin-top: 18%;
+    }
+    main header h1 {
+        display: none;
+    }
+    main header h2 {
+        display: block;
+        margin-top: 14%;
+    }
+    #min-device-mgbottom {
+        display: block;
+        margin-bottom: 15%;
     }
 }
 
@@ -30,6 +56,9 @@
     }
     .font-aside {
         font-size: 90%;
+    }
+    #min-devices-header {
+        display: none;
     }
 }
 
