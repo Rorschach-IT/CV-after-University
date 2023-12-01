@@ -9,7 +9,7 @@
 @import url(scale.css);
 
 :root {
-    font-family: unset;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 html {
@@ -23,6 +23,7 @@ body {
 }
 
 #container {
+    max-width: 1600px;
     margin: auto;
     width: 85%;
     height: auto;
